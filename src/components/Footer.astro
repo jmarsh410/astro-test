@@ -1,0 +1,29 @@
+---
+import Social from "../components/Social.astro";
+---
+
+<style>
+  ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<footer>
+  <p>this is a footer</p>
+  <ul>
+    <li>
+      <Social platform="bluesky" username="fakeuser" />
+    </li>
+    <li>
+      <Social platform="yep" username="fakeuser" />
+    </li>
+    <li>
+      <Social platform="anotherone" username="fakeuser" />
+    </li>
+  </ul>
+</footer>
